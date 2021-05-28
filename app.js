@@ -57,6 +57,7 @@ const validateCampground = (req, res, next) => {
 
 //***Routes*** 
 app.get('/', (req, res) => {
+    console.log('Homepage');
     res.redirect('/campgrounds');
 })
 
